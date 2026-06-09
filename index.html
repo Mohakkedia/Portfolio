@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mohak Kedia's professional portfolio. Data Analyst, Business Intelligence Developer, and Business Analytics and Artificial Intelligence Graduate Student at UT Dallas.">
+    <meta name="keywords" content="Mohak Kedia, Portfolio, Data Analyst, Business Intelligence, Business Analytics, UTD, SQL, Python, Power BI, RAG, Machine Learning">
+    <meta name="author" content="Mohak Kedia">
+    <title>Mohak Kedia | Data Analyst & Business Intelligence Specialist</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Three.js Background Canvas -->
+    <canvas id="three-canvas"></canvas>
+
+    <!-- Header / Navigation -->
+    <header id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <span class="logo-symbol">M</span><span class="logo-text">Kedia</span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="glow-sphere hero-glow"></div>
+            <span class="badge scroll-reveal">Welcome to my Portfolio</span>
+            <h1 class="hero-title scroll-reveal">
+                <span class="highlight">Mohak Kedia</span>
+            </h1>
+            <h2 class="hero-subtitle scroll-reveal">
+                I am a <span id="typewriter" class="typewriter-text"></span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-description scroll-reveal">
+                Translating complex datasets into actionable insights using Python, SQL, Tableau, Power BI, and statistical techniques, with a strong foundation in machine learning, automated reporting, and stakeholder-focused analytics.
+            </p>
+            <div class="hero-cta scroll-reveal">
+                <a href="#projects" class="btn btn-primary">View Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <a href="#about" aria-label="Scroll to About Section">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrows">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Profile</span>
+                <h2>About Me</h2>
+                <div class="header-bar"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-text-card glass-card scroll-reveal">
+                    <h3>Data-driven Business Analytics & Artificial Intelligence Graduate</h3>
+                    <p>
+                        I am currently pursuing my Master of Science in Business Analytics and Artificial Intelligence at <strong>The University of Texas at Dallas</strong> under the Dean's Excellence Scholarship. My academic journey is grounded in a Bachelor of Engineering in Computer Science, giving me a solid foundation in programming, algorithms, and systems engineering.
+                    </p>
+                    <p>
+                        With professional experience as a Data Analyst, I specialize in bridging the gap between business objectives and technical implementation. I design automated ETL pipelines, craft high-impact BI dashboards, and build predictive models to unlock growth and drive efficiency.
+                    </p>
+                    <div class="about-info-chips">
+                        <div class="info-chip"><i class="fa-solid fa-graduation-cap"></i> UT Dallas (MS BA and AI)</div>
+                        <div class="info-chip"><i class="fa-solid fa-location-dot"></i> Dallas, Texas</div>
+                        <div class="info-chip"><i class="fa-solid fa-briefcase"></i> Open to Internship & Full-time</div>
+                    </div>
+                    
+                    <a href="RESUME_MOHAK KEDIA 1.pdf" target="_blank" class="btn btn-primary resume-btn">
+                        <i class="fa-solid fa-file-pdf"></i> Download Full Resume
+                    </a>
+                </div>
+                
+                <div class="about-stats scroll-reveal">
+                    <div class="stat-card glass-card hover-glow" data-accent="teal">
+                        <div class="stat-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                        <div class="stat-val">MS BA and AI</div>
+                        <div class="stat-label">Expected Dec 2026</div>
+                    </div>
+                    <div class="stat-card glass-card hover-glow" data-accent="purple">
+                        <div class="stat-icon"><i class="fa-solid fa-code"></i></div>
+                        <div class="stat-val">BE CS</div>
+                        <div class="stat-label">Computer Science</div>
+                    </div>
+                    <div class="stat-card glass-card hover-glow" data-accent="blue">
+                        <div class="stat-icon"><i class="fa-solid fa-database"></i></div>
+                        <div class="stat-val">2+ Yrs</div>
+                        <div class="stat-label">Data Experience</div>
+                    </div>
+                    <div class="stat-card glass-card hover-glow" data-accent="pink">
+                        <div class="stat-icon"><i class="fa-solid fa-brain"></i></div>
+                        <div class="stat-val">3+</div>
+                        <div class="stat-label">Major Projects Built</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section alt-bg">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Career History</span>
+                <h2>Professional Experience</h2>
+                <div class="header-bar"></div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <!-- Experience 1 -->
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card hover-glow" data-accent="teal">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role">Data Analyst</h3>
+                                <h4 class="company">Amit Cot Fiber</h4>
+                            </div>
+                            <div class="time-location">
+                                <span class="time-badge"><i class="fa-solid fa-calendar-days"></i> Sept 2023 – Dec 2024</span>
+                                <span class="loc-badge"><i class="fa-solid fa-location-dot"></i> Pune, India</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Analysed monthly B2B cotton sales, revenue, and profit data across multiple products and cities to identify pricing and margin improvements using Excel, SQL, and Python.</li>
+                            <li>Conducted product-wise and city-level demand analysis to uncover distribution gaps and high-performing markets, supporting efficient supply planning.</li>
+                            <li>Automated monthly performance and KPI reporting pipelines using Python and SQL, streamlining recurring workflows and reducing manual effort.</li>
+                            <li>Designed and maintained interactive Power BI dashboards to track sales vs. profit performance, improving distribution efficiency by 10–12%.</li>
+                            <li>Collaborated with sales and operations to deliver data-backed recommendations, contributing to an 8–10% increase in revenue.</li>
+                            <li>Reduced data prep time by 20% while improving report accuracy/reliability through dataset validation and process standardization.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>Excel</span>
+                            <span>Power BI</span>
+                            <span>ETL Automation</span>
+                            <span>Data Analysis</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience 2 -->
+                <div class="timeline-item scroll-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card hover-glow" data-accent="purple">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role">BI Developer Intern</h3>
+                                <h4 class="company">Let’s Grow More</h4>
+                            </div>
+                            <div class="time-location">
+                                <span class="time-badge"><i class="fa-solid fa-calendar-days"></i> Mar 2022 – Apr 2022</span>
+                                <span class="loc-badge"><i class="fa-solid fa-location-dot"></i> Pune, India</span>
+                            </div>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Designed and hosted interactive Tableau dashboards using SQL db, improving KPI visibility and increasing stakeholder usability by 15-20%.</li>
+                            <li>Validated complex datasets and KPI logic through cross-functional collaboration, resolving discrepancies to ensure high-integrity reports.</li>
+                            <li>Streamlined BI workflows and dashboard validation processes, reducing report turnaround time by 20–25%.</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span>Tableau</span>
+                            <span>SQL</span>
+                            <span>Database Validation</span>
+                            <span>BI Workflows</span>
+                            <span>Data Quality</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Case Studies</span>
+                <h2>Academic Projects</h2>
+                <div class="header-bar"></div>
+            </div>
+            
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-card scroll-reveal tilt-element" data-accent="teal">
+                    <div class="project-card-inner">
+                        <div class="project-img-wrapper">
+                            <img src="images/retail.png" alt="Retail Sales Analytics" class="project-img">
+                        </div>
+                        <h3 class="project-title">Retail Sales Analytics & Demand Modelling</h3>
+                        <p class="project-desc">
+                            An end-to-end analytics pipeline designed to optimize pricing, promotion, and distribution strategy. Achieved an 89% predictive accuracy using multiple regression models.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-date">Oct 2025 – Dec 2025</span>
+                            <button class="btn btn-text open-modal-btn" data-project="retail">Read Details <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card scroll-reveal tilt-element" data-accent="purple">
+                    <div class="project-card-inner">
+                        <div class="project-img-wrapper">
+                            <img src="images/compensation.png" alt="Employee Compensation Analysis" class="project-img">
+                        </div>
+                        <h3 class="project-title">Employee Compensation Analysis</h3>
+                        <p class="project-desc">
+                            Analysis of 700K+ employee records in San Francisco. Integrated SQL, Bash scripting, and Power BI to clean datasets, calculate workforce metrics, and deliver interactive trends.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-date">Feb 2025 – May 2025</span>
+                            <button class="btn btn-text open-modal-btn" data-project="compensation">Read Details <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card scroll-reveal tilt-element" data-accent="pink">
+                    <div class="project-card-inner">
+                        <div class="project-img-wrapper">
+                            <img src="images/recipe.png" alt="AI-Powered Recipe Recommender" class="project-img">
+                        </div>
+                        <h3 class="project-title">AI-Powered Recipe Recommender</h3>
+                        <p class="project-desc">
+                            A semantic Search & Retrieval-Augmented Generation (RAG) system utilizing ChromaDB vector storage, sentence transformers, OpenAI API, and an interactive Streamlit UI.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-date">Dec 2025 – Mar 2026</span>
+                            <button class="btn btn-text open-modal-btn" data-project="recipe">Read Details <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card scroll-reveal tilt-element" data-accent="blue">
+                    <div class="project-card-inner">
+                        <div class="project-img-wrapper">
+                            <img src="images/secureaudit.png" alt="SecureAudit AI" class="project-img">
+                        </div>
+                        <h3 class="project-title">SecureAudit AI (MCP Submission — “The Buzz Lightyear”)</h3>
+                        <p class="project-desc">
+                            Model Context Protocol (MCP) server for privacy-preserving financial compliance audits on local CSV/JSON exports.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-date">May 2026</span>
+                            <button class="btn btn-text open-modal-btn" data-project="secureaudit">Read Details <i class="fa-solid fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section alt-bg">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Competencies</span>
+                <h2>Skills & Expertise</h2>
+                <div class="header-bar"></div>
+            </div>
+            
+            <div class="skills-grid-boxes scroll-reveal">
+                <!-- Box 1: Programming & Libraries -->
+                <div class="skill-domain-card glass-card hover-glow" data-accent="teal">
+                    <h3>Programming & Libraries</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-brands fa-python python-color"></i> Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-database sql-color"></i> SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-chart-line r-color"></i> R Programming</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-brands fa-html5 html-color"></i> HTML & CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-table pandas-color"></i> Pandas & NumPy</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-chart-pie viz-color"></i> Matplotlib & Seaborn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 2: BI & Databases -->
+                <div class="skill-domain-card glass-card hover-glow" data-accent="purple">
+                    <h3>BI & Databases</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-chart-simple pbi-color"></i> Power BI</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-circle-nodes tableau-color"></i> Tableau</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-file-excel excel-color"></i> Advanced Excel</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-server ms-sql-color"></i> Microsoft SQL Server</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-leaf oracle-color"></i> Oracle SQL & Cloud</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-snowflake snowflake-color"></i> Snowflake</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 3: Big Data & Cloud -->
+                <div class="skill-domain-card glass-card hover-glow" data-accent="blue">
+                    <h3>Big Data & Cloud</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-brands fa-aws aws-color"></i> AWS Cloud</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-brands fa-docker docker-color"></i> Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-network-wired hadoop-color"></i> Hadoop (HDFS)</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-bolt spark-color"></i> Spark (PySpark)</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-hexagon-nodes hive-color"></i> Hive</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-brands fa-git-alt git-color"></i> Git & Version</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 4: ML & Analytics -->
+                <div class="skill-domain-card glass-card hover-glow" data-accent="pink">
+                    <h3>ML & Analytics</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-gears ml-color"></i> ML Algorithms</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-square-root-variable stats-color"></i> Statistical Models</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-magnifying-glass-chart eda-color"></i> EDA Methods</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-calculator stats-color"></i> Adv. Statistics</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-brain rag-color"></i> RAG & Vector DBs</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name"><i class="fa-solid fa-diagram-project bi-color"></i> Business Intelligence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Certifications subsection -->
+            <div class="certifications-section scroll-reveal">
+                <h3>Professional Certifications</h3>
+                <div class="certs-grid">
+                    <div class="cert-card glass-card hover-glow" data-accent="teal">
+                        <div class="cert-icon"><img src="images/oracle.png" alt="Oracle Logo"></div>
+                        <div class="cert-details">
+                            <h4>Oracle Cloud Infrastructure</h4>
+                            <p>OCI Data Science Professional</p>
+                        </div>
+                    </div>
+                    <div class="cert-card glass-card hover-glow" data-accent="purple">
+                        <div class="cert-icon"><img src="images/oracle.png" alt="Oracle Logo"></div>
+                        <div class="cert-details">
+                            <h4>Oracle APEX</h4>
+                            <p>Oracle APEX Cloud Developer Certified Professional</p>
+                        </div>
+                    </div>
+                    <div class="cert-card glass-card hover-glow" data-accent="blue">
+                        <div class="cert-icon"><i class="fa-brands fa-aws"></i></div>
+                        <div class="cert-details">
+                            <h4>AWS Cloud</h4>
+                            <p>AWS Database Foundation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <span class="section-tag">Get in Touch</span>
+                <h2>Contact Information</h2>
+                <div class="header-bar"></div>
+            </div>
+            
+            <div class="contact-grid">
+                <!-- Info pane -->
+                <div class="contact-info scroll-reveal">
+                    <div class="glass-card contact-info-card">
+                        <h3>Connect with Me</h3>
+                        <p>Feel free to reach out for internship opportunities, project collaborations, or just a chat about data and analytics!</p>
+                        
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="info-text">
+                                    <span>Email</span>
+                                    <a href="mailto:mohakkedia3001@gmail.com">mohakkedia3001@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="info-text">
+                                    <span>Phone</span>
+                                    <a href="tel:+12149400310">(214) 940-0310</a>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="info-text">
+                                    <span>Location</span>
+                                    <p>Dallas, Texas, USA</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="info-icon"><i class="fa-brands fa-linkedin"></i></div>
+                                <div class="info-text">
+                                    <span>LinkedIn</span>
+                                    <a href="https://www.linkedin.com/in/mohakkedia/" target="_blank">linkedin.com/in/mohakkedia/</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Form pane -->
+                <div class="contact-form-pane scroll-reveal">
+                    <form class="glass-card contact-form" id="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!'); this.reset();">
+                        <h3>Send a Message</h3>
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder=" " class="form-input">
+                            <label for="name" class="form-label">Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder=" " class="form-input">
+                            <label for="email" class="form-label">Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" required placeholder=" " class="form-input">
+                            <label for="subject" class="form-label">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" required placeholder=" " class="form-input" rows="5"></textarea>
+                            <label for="message" class="form-label">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Mohak Kedia. All rights reserved.</p>
+            <div class="social-links">
+                <a href="mailto:mohakkedia3001@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/mohakkedia/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Detail Modals -->
+    <div class="modal-overlay" id="modal-overlay">
+        <!-- Retail Project Modal -->
+        <div class="modal glass-card" id="modal-retail">
+            <button class="modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header-accent" style="background: linear-gradient(90deg, #00f2fe, #4facfe);"></div>
+            <div class="modal-body">
+                <span class="modal-badge">Demand Modelling</span>
+                <h2>End-to-End Retail Sales Analytics & Demand Modelling</h2>
+                <span class="modal-date"><i class="fa-solid fa-calendar"></i> Oct 2025 – Dec 2025</span>
+                
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>Designed a machine learning and data analytics pipeline to understand how pricing, promotions, and distribution channels influence retail sales. Built multi-model predictive architecture to optimize supply chains and recover margins.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Methodologies</h3>
+                    <ul>
+                        <li><strong>Data Preprocessing:</strong> Handled data cleaning, missing value imputation, and noise filtering across over 167,000 transaction records.</li>
+                        <li><strong>Feature Engineering:</strong> Constructed 54 predictive variables capturing pricing elasticity, calendar events, seasonal trends, and promotional cycles.</li>
+                        <li><strong>Modeling:</strong> Trained and benchmarked multiple regression algorithms including Ordinary Least Squares (OLS), Lasso, Ridge, and Elastic Net regression to select the highest-performing model.</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section flex-row">
+                    <div class="modal-stat">
+                        <span class="stat-num">89%</span>
+                        <span class="stat-lbl">Predictive Accuracy Achieved</span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-num">167K+</span>
+                        <span class="stat-lbl">Records Analyzed</span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-num">30%</span>
+                        <span class="stat-lbl">Sales Recovery Supported</span>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Business Impact & Outcome</h3>
+                    <p>Delivered automated, data-backed recommendations for promotional calendars and margin optimizations that helped mitigate a historical 30% sales decline by identifying demand-aligned market prices.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Scikit-learn</span>
+                        <span>Exploratory Data Analysis (EDA)</span>
+                        <span>Statistical Modeling</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Compensation Project Modal -->
+        <div class="modal glass-card" id="modal-compensation">
+            <button class="modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header-accent" style="background: linear-gradient(90deg, #7f00ff, #e100ff);"></div>
+            <div class="modal-body">
+                <span class="modal-badge">Workforce Intelligence</span>
+                <h2>San Francisco Employee Compensation Analysis</h2>
+                <span class="modal-date"><i class="fa-solid fa-calendar"></i> Feb 2025 – May 2025</span>
+                
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>Built a robust relational database schema and analytics engine to visualize and evaluate compensation packages, benefits, and salary distribution across public sectors in San Francisco.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Methodologies</h3>
+                    <ul>
+                        <li><strong>Data Engineering & ETL:</strong> Used Bash/Unix scripting and complex SQL queries to clean, deduplicate, and standardize over 700,000 public records, converting raw tabular files into structured tables.</li>
+                        <li><strong>Query Optimization:</strong> Built optimized CTEs, indexes, and custom views within Microsoft SQL Server (SSMS) and MySQL to support sub-second reporting.</li>
+                        <li><strong>Dashboard Design:</strong> Modeled and linked data schemas to Power BI, designing high-fidelity, interactive visuals highlighting pay inequity, average benefits, and salary clusters.</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section flex-row">
+                    <div class="modal-stat">
+                        <span class="stat-num">700K+</span>
+                        <span class="stat-lbl">Employee Records Standardized</span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-num">SQL Server</span>
+                        <span class="stat-lbl">Database Platform</span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-num">Power BI</span>
+                        <span class="stat-lbl">Dashboard Front-end</span>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Business Impact & Outcome</h3>
+                    <p>Provided cross-functional hr/workforce metrics that enabled stakeholders to inspect equity gaps and compensation distributions across diverse departments quickly and dynamically.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>SQL Server (SSMS)</span>
+                        <span>MySQL Workbench</span>
+                        <span>Bash Scripting</span>
+                        <span>Power BI</span>
+                        <span>Data Modeling</span>
+                        <span>ETL Pipelines</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recipe Project Modal -->
+        <div class="modal glass-card" id="modal-recipe">
+            <button class="modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header-accent" style="background: linear-gradient(90deg, #f857a6, #ff5858);"></div>
+            <div class="modal-body">
+                <span class="modal-badge">Generative AI</span>
+                <h2>AI-Powered Recipe Recommendation System (RAG-Based)</h2>
+                <span class="modal-date"><i class="fa-solid fa-calendar"></i> Dec 2025 – Mar 2026</span>
+                
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>Designed and built an end-to-end Retrieval-Augmented Generation (RAG) system capable of parsing complex ingredients, dietary constraints, and natural language preferences to recommend personalized recipes.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Key Methodologies</h3>
+                    <ul>
+                        <li><strong>Vector Embeddings:</strong> Built text parsing pipelines to chunk recipe datasets, generated embeddings using Sentence Transformers, and indexed vectors into ChromaDB.</li>
+                        <li><strong>Contextual Retrieval:</strong> Implemented semantic cosine-similarity search in ChromaDB, retrieving relevant recipes to feed as context into the LLM.</li>
+                        <li><strong>RAG Orchestration:</strong> Engineered custom prompts with the OpenAI API, restricting model hallucinations by referencing retrieved context.</li>
+                        <li><strong>Frontend Interface:</strong> Built a lightweight and fully interactive chat interface in Streamlit, managing session state for real-time conversations.</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section flex-row">
+                    <div class="modal-stat">
+                        <span class="stat-num">ChromaDB</span>
+                        <span class="stat-lbl">Vector Database</span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-num">OpenAI</span>
+                        <span class="stat-lbl">Language Model API</span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-num">Streamlit</span>
+                        <span class="stat-lbl">Interactive Chat UI</span>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Business Impact & Outcome</h3>
+                    <p>Created a highly responsive AI culinary agent that translates vague requests (e.g., "something high-protein and gluten-free with avocados") into structured, precise recipe proposals, enhancing search discovery and user experience.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>ChromaDB</span>
+                        <span>Sentence Transformers</span>
+                        <span>OpenAI API</span>
+                        <span>Streamlit</span>
+                        <span>Vector Embeddings</span>
+                        <span>RAG Architecture</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SecureAudit AI Modal -->
+        <div class="modal glass-card" id="modal-secureaudit">
+            <button class="modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header-accent" style="background: linear-gradient(90deg, #00b4d8, #0077b6);"></div>
+            <div class="modal-body">
+                <span class="modal-badge">FinTech Security</span>
+                <h2>SecureAudit AI (MCP Submission — “The Buzz Lightyear”)</h2>
+                <span class="modal-date"><i class="fa-solid fa-calendar"></i> May 2026</span>
+                
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>Model Context Protocol (MCP) server for privacy-preserving financial compliance audits on local CSV/JSON exports.</p>
+                </div>
+
+                <div class="modal-section">
+                    <h3>What I Did</h3>
+                    <ul>
+                        <li><strong>Duplicate Invoice Detection:</strong> Built filters to detect duplicate invoices across files.</li>
+                        <li><strong>RBAC & SOC2 Auditing:</strong> Built role-based access control (RBAC) and SOC2-style log anomaly checks.</li>
+                        <li><strong>PII Scrubbing & Privacy Proxy:</strong> Implemented PII scrubbing on outputs and metadata-only webhooks via a privacy proxy.</li>
+                        <li><strong>Dashboard & CLI Demo:</strong> Programmed a FastAPI dashboard and CLI demo; engineered custom MCP tools integrated with Grok and Claude Desktop.</li>
+                    </ul>
+                </div>
+
+                <div class="modal-section flex-row">
+                    <div class="modal-stat">
+                        <span class="stat-num">4</span>
+                        <span class="stat-lbl">MCP Tools Registered</span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-num">Local</span>
+                        <span class="stat-lbl">CSV/JSON Scans</span>
+                    </div>
+                    <div class="modal-stat">
+                        <span class="stat-num">Proxy</span>
+                        <span class="stat-lbl">Metadata Webhooks</span>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>MCP Tools (Highlights)</h3>
+                    <div class="tech-tags font-code">
+                        <span>audit_duplicate_invoices</span>
+                        <span>audit_rbac_anomalies</span>
+                        <span>scrub_text_preview</span>
+                        <span>send_compliance_alert</span>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>Model Context Protocol (MCP)</span>
+                        <span>Pydantic</span>
+                        <span>Local-only Processing</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Three.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- Script -->
+    <script src="app.js"></script>
+</body>
+</html>
