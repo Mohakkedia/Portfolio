@@ -906,6 +906,12 @@ img {
     transition: transform var(--transition-normal);
 }
 
+.project-img-placeholder {
+    width: 100%;
+    min-height: 160px;
+    border-radius: var(--radius-sm);
+}
+
 .project-card:hover .project-img {
     transform: scale(1.08);
 }
