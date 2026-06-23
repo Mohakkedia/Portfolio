@@ -1054,6 +1054,10 @@ img {
 .spark-color { color: #e25a1b; }
 .hive-color { color: #fdd835; }
 .git-color { color: #f05032; }
+.jupyter-color { color: #f37626; }
+.airflow-color { color: #017cee; }
+.dbt-color { color: #ff694b; }
+.dataiku-color { color: #2ab1ac; }
 
 /* Certifications Sub-grid */
 .certifications-section {
