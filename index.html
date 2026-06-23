@@ -126,7 +126,7 @@
                     </div>
                     <div class="stat-card glass-card hover-glow" data-accent="pink">
                         <div class="stat-icon"><i class="fa-solid fa-brain"></i></div>
-                        <div class="stat-val">7+</div>
+                        <div class="stat-val">8+</div>
                         <div class="stat-label">Major Projects Built</div>
                     </div>
                 </div>
@@ -378,6 +378,26 @@
                             <div class="project-actions">
                                 <a href="https://github.com/Mohakkedia/Pre-Mortem-Failure-Agent" target="_blank" class="btn btn-icon" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
                                 <button class="btn btn-text open-modal-btn" data-project="premortem">Read Details <i class="fa-solid fa-chevron-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9: Fintech Transaction Fraud Pipeline -->
+                <div class="project-card glass-card scroll-reveal tilt-element" data-accent="amber">
+                    <div class="project-card-inner">
+                        <div class="project-img-wrapper">
+                            <img src="images/fintech_fraud.png" alt="Fintech Transaction Fraud Pipeline" class="project-img">
+                        </div>
+                        <h3 class="project-title">Fintech Transaction Fraud Pipeline</h3>
+                        <p class="project-desc">
+                            An end-to-end data engineering and analytics pipeline built to audit credit card transactions, compute risk metrics, and trigger automated predictive modelling using dbt, Snowflake, Airflow, and Dataiku DSS.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-date">Jun 2026</span>
+                            <div class="project-actions">
+                                <a href="https://github.com/Mohakkedia/Fintech-Transaction-Fraud-Pipeline" target="_blank" class="btn btn-icon" aria-label="GitHub Repository"><i class="fa-brands fa-github"></i></a>
+                                <button class="btn btn-text open-modal-btn" data-project="fintechfraud">Read Details <i class="fa-solid fa-chevron-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -1028,6 +1048,47 @@
                 </div>
                 <div class="modal-github-btn">
                     <a href="https://github.com/Mohakkedia/Pre-Mortem-Failure-Agent" target="_blank" class="btn btn-primary">
+                        <i class="fa-brands fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fintech Transaction Fraud Pipeline Modal -->
+        <div class="modal glass-card" id="modal-fintechfraud">
+            <button class="modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header-accent" style="background: linear-gradient(90deg, #fbbf24, #f59e0b);"></div>
+            <div class="modal-body">
+                <span class="modal-badge">Data Engineering / FinTech</span>
+                <h2>Fintech Transaction Fraud &amp; Risk Audit Pipeline</h2>
+                <span class="modal-date"><i class="fa-solid fa-calendar"></i> Jun 2026</span>
+                <div class="modal-section">
+                    <h3>Project Overview</h3>
+                    <p>An end-to-end data engineering and analytics pipeline that audits credit card transactions, computes risk metrics, and triggers automated predictive modelling runs. Built on a modern DataOps Medallion Architecture (Raw → Staging → Marts) using industry-standard tools.</p>
+                </div>
+                <div class="modal-section">
+                    <h3>Architecture &amp; Methodology</h3>
+                    <ul>
+                        <li><strong>Medallion Architecture:</strong> Structured data flow from Raw ingestion zone through Staging transformations to production-ready Marts in Snowflake.</li>
+                        <li><strong>Workflow Orchestration:</strong> Apache Airflow DAGs orchestrate ingestion (Snowflake COPY INTO), dbt compilation, testing, and model training triggers.</li>
+                        <li><strong>dbt Transformations:</strong> Custom SQL macros, staging models, and mart tables with built-in data quality tests transform raw transaction data into analytics-ready risk metrics.</li>
+                        <li><strong>MLOps Integration:</strong> Dataiku DSS API-driven model retraining pipeline enables automated fraud classifier updates on new data.</li>
+                        <li><strong>Mock Data Generator:</strong> Python-based synthetic transaction generator for development and testing.</li>
+                    </ul>
+                </div>
+                <div class="modal-section flex-row">
+                    <div class="modal-stat"><span class="stat-num">Medallion</span><span class="stat-lbl">Architecture</span></div>
+                    <div class="modal-stat"><span class="stat-num">End-to-End</span><span class="stat-lbl">DataOps Pipeline</span></div>
+                    <div class="modal-stat"><span class="stat-num">Automated</span><span class="stat-lbl">Model Retraining</span></div>
+                </div>
+                <div class="modal-section">
+                    <h3>Technologies Used</h3>
+                    <div class="tech-tags">
+                        <span>Snowflake</span><span>dbt Core</span><span>Apache Airflow</span><span>Dataiku DSS</span><span>Python</span><span>SQL</span><span>Medallion Architecture</span><span>MLOps</span>
+                    </div>
+                </div>
+                <div class="modal-github-btn">
+                    <a href="https://github.com/Mohakkedia/Fintech-Transaction-Fraud-Pipeline" target="_blank" class="btn btn-primary">
                         <i class="fa-brands fa-github"></i> View on GitHub
                     </a>
                 </div>
